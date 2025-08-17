@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  transition: 0.3s;
+}
+
+h1, h2, h3 {
+  color: #4a47a3;
+}
+
+/* Header / Hero */
+header {
+  background: linear-gradient(135deg, #4a47a3, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #ffdd57;
+}
+
+/* Section Styling */
+section {
+  padding: 50px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills li {
+  background: #eee;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+/* Project Cards */
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+.project-card a {
+  text-decoration: none;
+  color: #4a47a3;
+  font-weight: bold;
+}
+
+/* Resume Button */
+.resume-btn {
+  display: inline-block;
+  background: #4a47a3;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Contact */
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4a47a3;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}

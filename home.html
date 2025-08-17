@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nisha Ravi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero / Header -->
+  <header>
+    <h1>👋 Hi, I'm <span class="highlight">Nisha Ravi</span></h1>
+    <p class="typing">UX Designer | Frontend Developer | Creative Thinker</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a BCA graduate passionate about <strong>crafting user-centered experiences</strong>. 
+      Skilled in Figma, HTML, CSS, and JavaScript, I enjoy transforming ideas into 
+      intuitive designs and functional applications.
+    </p>
+
+    <h3>Skills</h3>
+    <ul class="skills">
+      <li>🎨 Figma</li>
+      <li>💻 HTML, CSS, JavaScript</li>
+       <li>🟢 Node.js</li>
+      <li>🗄️ MySQL, MongoDB</li>
+      <li>🤝 Collaboration & Problem Solving</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>🚗 Smart Parking System</h3>
+      <p>Designed a mobile-responsive UI for real-time slot booking, 
+         focusing on usability and accessibility.</p>
+        <a href="smart-parking.html">🔗 View Case Study</a>
+    </div>
+
+    <div class="project-card">
+      <h3>🎬 BookMyShow UI Clone</h3>
+      <p>Recreated app screens in Figma with focus on navigation flow, 
+         consistency, and modern UI practices.</p>
+    <a href="bookmyshow.html">🔗 View Case Study</a>
+    </div>
+
+    <div class="project-card">
+      <h3>💻 Personal Portfolio (Figma)</h3>
+      <p>Designed a professional self-portfolio prototype using clean 
+         structuring and UX principles.</p>
+      <a href="portfolio-design.html">🔗 View Case Study</a>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="Nisha_Ravi_UX_Resume.pdf" target="_blank" class="resume-btn">📄 Download My Resume</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:nisharavi430@gmail.com">nisharavi430@gmail.com</a></p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/nisha-ravi-4-3-/" target="_blank">💼 LinkedIn</a>
+      <a href="https://github.com" target="_blank">💻 GitHub</a>
+      <a href="mailto:nisharavi430@gmail.com">📧 Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nisha Ravi | Built with ❤️</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Typing Effect
+    const text = document.querySelector(".typing");
+    const words = ["UX Designer", "Frontend Developer", "Creative Thinker"];
+    let i = 0;
+    setInterval(() => {
+      text.textContent = words[i];
+      i = (i + 1) % words.length;
+    }, 2000);
+  </script>
+</body>
+</html>
