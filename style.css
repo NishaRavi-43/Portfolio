@@ -73,12 +73,18 @@ section {
 /* Resume Button */
 .resume-btn {
   display: inline-block;
-  background: #4a47a3;
-  color: white;
-  padding: 12px 25px;
+  padding: 10px 20px;
+  background: #0073e6;
+  color: #fff;
   border-radius: 8px;
   text-decoration: none;
+  font-weight: bold;
 }
+
+.resume-btn:hover {
+  background: #005bb5;
+}
+
 
 /* Contact */
 .socials a {
